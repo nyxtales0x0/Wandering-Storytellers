@@ -5,7 +5,7 @@ export const stats = {
     strength: 100
 }
 
-startGame();
+startGame(); 
 
 // FUNCTIONS 
 
