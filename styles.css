@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    background-color: black;
+    height: 5%;
+}
+
+#story {
+    background-color: white;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    padding: 1rem;
+}
+
+#story-choice {
+    background-color: darkgray;
+    width: 90%;
+    margin-bottom: 1rem;
+}
