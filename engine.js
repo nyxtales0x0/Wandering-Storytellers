@@ -1,51 +1,9 @@
-const chapter1 = [
+import { chapter1 } from "./chapter1.js";
 
-    {
-        label: "start",
-        text: "You are in a dark dungeon with 3 ways to go... which way would you like to proceed ?",
-        choices: [
-            {
-                text: " Go North",
-                nextScene: "dreams",
-                run: function () {}
-            },
-            {
-                text: "Go West",
-                nextScene: "dreams",
-                run: function () {}
-            },
-            {
-                text: "Stay here",
-                nextScene: "dreams",
-                run: function () {}
-            }
-        ]
-    },
-
-    {
-        label: "dreams",
-        text: "Sorry nvm you were not inside a dungeon but inside your dearms xD",
-        choices: [
-            {
-                text: "Get off your bed.",
-                nextScene: "end",
-                run: function () {}
-            },
-            {
-                text: "Head to sleep again.",
-                nextScene: "end",
-                run: function () {}
-            }
-        ]
-    },
-
-    {
-        label: "end",
-        text: "Thanks for playing",
-        choices: []
-    }
-
-];
+export const stats = {
+    magic: 100,
+    strength: 100
+}
 
 startGame();
 
@@ -59,6 +17,7 @@ function renderScene(label) {
     // print the scene text
     storyDiv.innerText = scene.text;
     // render the buttons
+    alert(stats.magic)
     scene.choices.forEach(choice => {
         const choiceButton = document.createElement("div");
         choiceButton.id = "story-choice";
