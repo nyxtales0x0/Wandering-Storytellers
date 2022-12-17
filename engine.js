@@ -7,23 +7,17 @@ const chapter1 = [
             {
                 text: " Go North",
                 nextScene: "dreams",
-                run: function () {
-                    alert("moved north");
-                }
+                run: function () {}
             },
             {
                 text: "Go West",
                 nextScene: "dreams",
-                run: function () {
-                    alert("moved west");
-                }
+                run: function () {}
             },
             {
                 text: "Stay here",
                 nextScene: "dreams",
-                run: function () {
-                    alert("not gonna move ... nope!");
-                }
+                run: function () {}
             }
         ]
     },
