@@ -3,7 +3,7 @@ export const start = {
     
     You look at the old tavern settled on a stone foundation and can see the sun setting behind it. You take a deep sigh, all that your mind cares about right now is a nice warm loaf of bread and honey along with a mug of refreshing ale. "I deserve it after all the days work", you think to yourself.
     
-    As your stomach starts to growl in excitement, you move forward and open the door of the Winter Bear Tavern, the warmth flushing at you as the door opens.
+    As your stomach starts to growl in excitement, you move forward and open the door of the Winter Bear's Tavern, the warmth flushing at you as the door opens.
     
     "Welcome to Winter Bear's tavern young fellow."`,
     choices: [
