@@ -6,26 +6,32 @@
 body {
     display: flex;
     flex-flow: column;
-    background-color: grey;
+    background-color: #1d2025;
     width: 100vw;
     height: 100vh;
 }
 
 nav {
-    background-color: black;
+    background-color: #2b303a;
     height: 5%;
 }
 
 #story {
-    background-color: white;
-    width: 85%;
-    height: 85%;
+    background-color: #2b303a;
+    color: #d8dee9;
+    font-size: 1.5rem;
+    width: 70%;
+    height: 80%;
     margin: auto;
-    padding: 1rem;
+    padding: 3rem;
 }
 
-#story-choice {
-    background-color: darkgray;
+#story-text {
+    margin-bottom: 2rem;
+}
+
+#story-choices  {
+    color: #dfac3f;
     width: 90%;
     margin-bottom: 1rem;
 }

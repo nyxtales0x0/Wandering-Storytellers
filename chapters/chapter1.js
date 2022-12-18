@@ -1,28 +1,23 @@
-import { stats } from "./engine.js";
-
 export const chapter1 = [
 
     {
         label: "start",
-        text: "You are in a dark dungeon with 3 ways to go... which way would you like to proceed ?",
+        text: `It was a tough day, you nearly died but you managed to put through. After a long stressfull day all there is in your mind is a sweet piece of bread and honey and some ale to quench your thirst. \r\rYou are in a dark dungeon with 3 ways to go... which way would you like to proceed ?`,
         choices: [
             {
                 text: " Go North",
-                nextScene: "dreams",
-                run: function () {
-                    stats.magic = 20;
-                    alert(stats.magic);
-                }
+                goto: "dreams",
+                run: function () { }
             },
             {
                 text: "Go West",
-                nextScene: "dreams",
-                run: function () {}
+                goto: "dreams",
+                run: function () { }
             },
             {
                 text: "Stay here",
-                nextScene: "dreams",
-                run: function () {}
+                goto: "dreams",
+                run: function () { }
             }
         ]
     },
@@ -33,13 +28,13 @@ export const chapter1 = [
         choices: [
             {
                 text: "Get off your bed.",
-                nextScene: "end",
-                run: function () {}
+                goto: "end",
+                run: function () { }
             },
             {
                 text: "Head to sleep again.",
-                nextScene: "end",
-                run: function () {}
+                goto: "end",
+                run: function () { }
             }
         ]
     },
