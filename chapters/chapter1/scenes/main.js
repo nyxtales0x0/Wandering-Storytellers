@@ -1,1 +1,1 @@
-export { tavernIntro } from "./tavernIntro.js"
+export * as tavernIntro from "./tavernIntro.js"
