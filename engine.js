@@ -26,7 +26,7 @@ startGame(sceneTree);
 // (start subscene of tavernIntro scene)
 // render the first node of the node tree
 function startGame(subScene) {
-    window.onload = (ev) => {
+    window.onload = () => {
         renderScene(subScene);
     };
 }
@@ -45,6 +45,7 @@ function renderScene(subScene) {
 function renderText(subScene) {
     const storyTextDiv = document.getElementById("story-text");
     storyTextDiv.innerText = subScene.text;
+    if (subScene.run) subScene.run();
 }
 
 
@@ -53,13 +54,18 @@ function renderChoices(subScene) {
     const storyChoicesDiv = document.getElementById("story-choices");
     storyChoicesDiv.innerHTML = "";
     subScene.choices.forEach((choice) => {
-        const choiceButton = document.createElement("div");
-        choiceButton.id = "story-choices";
-        choiceButton.innerText = choice.text;
-        storyChoicesDiv.appendChild(choiceButton);
-        choiceButton.addEventListener("click", (ev) => {
-            choice.run();
-            renderScene(subScene.nextScene);
-        });
+        // basically if your choice object has hidden property then dont show it up.
+        if (choice.hidden === true) { /* do nothing */ }
+        else {
+            // add the choice
+            const choiceButton = document.createElement("div");
+            choiceButton.id = "story-choices";
+            choiceButton.innerText = choice.text;
+            storyChoicesDiv.appendChild(choiceButton);
+            choiceButton.addEventListener("click", () => {
+                choice.run();
+                renderScene(subScene.nextScene);
+            });
+        }   
     });
 }
