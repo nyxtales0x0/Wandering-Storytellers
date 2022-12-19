@@ -29,7 +29,7 @@ const helloRalf = {
 
     Ralf, the owner of the Winter Bear's tavern. Every time you come back from your quests and ventures Ralf's old tavern is the first place you visit. Ralf has become a regular sight to your eyes since you moved to Vernes. He's one of the few people you have started to get along with in this new town.
     
-    "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over Syrine. Stupid dumplings have nothin' better to do than keepin their dirty eyes ove' the waitress and fightin' in my shack." Ralf grunts as he turns a bit angry, You turn your gaze to your right and look at a pale skinned girl, she have a black hair, a sparkling blue eyes, with freckles running across her face, and height of about 5'4 (164 cm) `,
+    "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over Syrine. Stupid dumplings have nothin' better to do than keepin their dirty eyes ove' the waitress and fightin' in my shack." Ralf grunts as he turns a bit angry, You turn your gaze to your right and look at a pale skinned young lady, she has black hair, her eyes sparkling blue like lapiz, with freckles running across her face.`,
     choices: [
         {
             text: `I'm not surprised that people always seem to flirt with her, she looks quite beautiful afterall`,
