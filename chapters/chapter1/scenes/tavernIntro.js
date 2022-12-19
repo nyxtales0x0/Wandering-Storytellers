@@ -25,7 +25,7 @@ export const start = {
 const helloRalf = {
     text: `write tavern interior description here 
     
-    Seems like you will be left to your thoughts no more. You see an atheletic man with a tan skin tone, green emerald like eyes and a thick orange beard greets approaching towards you.
+    Seems like you will be left to your thoughts no more. You see an atheletic man with a tan skin tone, green emerald like eyes and a thick orange beard approaching towards you.
     
     "Ahh Ralf, good day old man. How's it going?"
 
