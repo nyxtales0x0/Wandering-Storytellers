@@ -1,4 +1,3 @@
-Just a test to delete later can you see this?
 export const start = {
     text: `In a calm evening, as the winds grazes past you and flows along your skin, you find yourself standing in the town square of a city called Vernes, a city you recently moved into after you were released from your old job,The town square is busy as per usual making it look like the liveliest part of the city.
     
