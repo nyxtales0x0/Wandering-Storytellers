@@ -32,5 +32,17 @@ const helloRalf = {
     Ralf, the owner of the Winter Bear's tavern. Every time you come back from your quests and ventures Ralf's old tavern is the first place you visit. Ralf has become a regular sight to your eyes since you moved to Vernes. He's one of the few people you have started to get along in this new town.
     
     "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over a stupid lass. Stupid dumplings have nethin better to do than fightin' in my shack."`,
+    choices: [
+        {
+            text: `"And who's this lass by the way?"`,
+            run: function() {
+                helloRalf.nextScene = whosTheLass;
+            }
+        }
+    ]
+}
+
+const whosTheLass = {
+    text: ``,
     choices: []
 }
