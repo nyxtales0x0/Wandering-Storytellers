@@ -18,6 +18,15 @@ startGame(sceneTree);
 
 
 
+// handle back button
+const rewindButton = document.getElementById("rewind");
+rewindButton.onclick = () => {
+    gotoPreviousScene(sceneTree);
+    renderLastNode(sceneTree);
+}
+
+
+
 // ========= Functions ========= //
 
 
@@ -68,4 +77,23 @@ function renderChoices(subScene) {
             });
         }   
     });
+}
+
+
+
+// using recursion to traverse the tree and delete the last node
+function gotoPreviousScene(sceneTree) {
+    if (!sceneTree.nextScene) return 1;
+    else if (gotoPreviousScene(sceneTree.nextScene) === 1) {
+        delete sceneTree.nextScene;
+    }
+}
+
+
+
+// this needs to be called to render the last scene of the tree
+// after deleting the last node by back button
+function renderLastNode(sceneTree) {
+    if (sceneTree.nextScene) renderLastNode(sceneTree.nextScene);
+    else renderScene(sceneTree);
 }

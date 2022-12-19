@@ -12,8 +12,15 @@ body {
 }
 
 nav {
+    display: flex;
+    align-items: center;
     background-color: #2b303a;
     height: 5%;
+    padding: 0rem 1rem;
+}
+
+#rewind {
+    color: #dfac3f;
 }
 
 #story {
