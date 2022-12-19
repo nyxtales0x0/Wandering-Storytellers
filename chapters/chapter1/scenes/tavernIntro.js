@@ -32,7 +32,19 @@ const helloRalf = {
     "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over Syrine. Stupid dumplings have nethin better to do than keepin their dirty eyes ove' the waitress and fightin' in my shack." Ralf grunts as he turns a bit angry, You turn your gaze to your right and look at a === syrine description here ===`,
     choices: [
         {
-            text: `"Continue"`,
+            text: `I'm not surprised that people always seem to flirt with her, she seems beautiful`,
+            run: function() {
+                helloRalf.nextScene = whosTheLass;
+            }
+        },
+        {
+            text: `She's just an ordinary girl... why waste time on a waitress`,
+            run: function() {
+                helloRalf.nextScene = whosTheLass;
+            }
+        },
+        {
+            text: `Sip your ale`,
             run: function() {
                 helloRalf.nextScene = whosTheLass;
             }
