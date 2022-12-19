@@ -21,15 +21,15 @@ export const start = {
 }
 
 const helloRalf = {
-    text: ` ===== can someone write the tavern's interior description here ? =====
-    
-    Seems like you will be left to your thoughts no more. You see an atheletic man with a tan skin tone, green emerald like eyes and a thick orange beard approaching towards you.
+    text: `As you eat and drink your fill, you start to take in the medium sized tavern's atmosphere, the usual cheers and songs of drunken patrons, the warmth of the fire from the hearth, the warm lanterns hung from the walls, lights the wooden furnitures scattered about the tavern, as one of the people surrounding a table stands up giggling with glee as he takes a pot of money from their game of cards,
+
+    Then in the corner of your eyes you see somebody walking towards you, seems like you will be left to your own thoughts no longer. You see an atheletic man with a tan skin tone, green emerald like eyes and a thick orange beard approaching towards you.
     
     "Ahh Ralf, good day old man. How's it going?"
 
     Ralf, the owner of the Winter Bear's tavern. Every time you come back from your quests and ventures Ralf's old tavern is the first place you visit. Ralf has become a regular sight to your eyes since you moved to Vernes. He's one of the few people you have started to get along with in this new town.
     
-    "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over Syrine. Stupid dumplings have nothin' better to do than keepin their dirty eyes ove' the waitress and fightin' in my shack." Ralf grunts as he turns a bit angry, You turn your gaze to your right and look at a === syrine description here ===`,
+    "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over Syrine. Stupid dumplings have nothin' better to do than keepin their dirty eyes ove' the waitress and fightin' in my shack." Ralf grunts as he turns a bit angry, You turn your gaze to your right and look at a pale skinned young lady, she has black hair, her eyes sparkling blue like lapiz, with freckles running across her face.`,
     choices: [
         {
             text: `I'm not surprised that people always seem to flirt with her, she looks quite beautiful afterall`,
