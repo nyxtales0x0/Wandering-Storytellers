@@ -1,15 +1,15 @@
 export const start = {
-    text: `In a calm evening, as the winds grazes past you and flows along your skin, you find yourself standing in the town square of a city called Vernes, a city you recently moved into after you were released from your old job,The town square is busy as per usual making it look like the liveliest part of the city.
+    text: `In a calm evening, as the winds graze past you and flow along your skin, you find yourself standing in the town square of a city called Vernes, a city you recently moved into after you were released from your old job,The town square is busy as per usual making it look like the liveliest part of the city.
     
-    You look at the old tavern settled on a stone foundation and can see the sun starting to dip behind it. You take a deep sigh, now all that your mind cares about is getting a nice warm piece of bread and honey along with a mug of refreshing ale.
+    You look at the old tavern settled on a stone foundation and can see the sun starting to set behind it. You let out a deep sigh, now all that your mind cares about is getting a nice warm piece of bread and honey along with a mug of refreshing ale.
 
     "I deserve it after all the days work" you think to yourself.
     
     As your stomach starts to growl in excitement, you move forward and open the door of the Winter Bear's Tavern, the warmth flushing at you as the door opens.
     
-    "Welcome to Winter Bear tavern laddie what will you be having t'night?" Says the bartender as you enters,the place is busling with adventurers and soldiers alike talking about their own sets of achivements, in various stages of drunkenness, it's a well reputed inn afterall,
+    "Welcome to Winter Bear tavern laddie what will you be having t'night?" Says the bartender as you enter,the place is busling with adventurers and soldiers alike talking about their own sets of achivements, in various stages of drunkenness, it's a well reputed inn afterall,
     
-    You order the bread and honey, with a pint of ale as you sit at one of the tables, She quickly came and soon enough you are enjoying your well deserved food after a long and hectic day with a mug of ale in your left hand and honey laced bread in your right.`,
+    You order yourself some bread and honey, with a pint of ale as you sit at one of the tables, you food was quickly served and soon enough you are enjoying your well deserved food after a long and hectic day with a mug of ale in your left hand and honey laced bread in your right.`,
     choices: [
         {
             text: "Continue",
@@ -27,12 +27,12 @@ const helloRalf = {
     
     "Ahh Ralf, good day old man. How's it going?"
 
-    Ralf, the owner of the Winter Bear's tavern. Every time you come back from your quests and ventures Ralf's old tavern is the first place you visit. Ralf has become a regular sight to your eyes since you moved to Vernes. He's one of the few people you have started to get along in this new town.
+    Ralf, the owner of the Winter Bear's tavern. Every time you come back from your quests and ventures Ralf's old tavern is the first place you visit. Ralf has become a regular sight to your eyes since you moved to Vernes. He's one of the few people you have started to get along with in this new town.
     
-    "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over Syrine. Stupid dumplings have nethin better to do than keepin their dirty eyes ove' the waitress and fightin' in my shack." Ralf grunts as he turns a bit angry, You turn your gaze to your right and look at a === syrine description here ===`,
+    "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over Syrine. Stupid dumplings have nothin' better to do than keepin their dirty eyes ove' the waitress and fightin' in my shack." Ralf grunts as he turns a bit angry, You turn your gaze to your right and look at a === syrine description here ===`,
     choices: [
         {
-            text: `I'm not surprised that people always seem to flirt with her, she seems beautiful`,
+            text: `I'm not surprised that people always seem to flirt with her, she looks quite beautiful afterall`,
             run: function() {
                 helloRalf.nextScene = whosTheLass;
             }
