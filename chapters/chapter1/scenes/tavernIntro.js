@@ -1,5 +1,5 @@
 export const start = {
-    text: `In a calm evening, as the winds grazes past you and flows along your skin, you find yourself standing in the town square of a city called Vernes, a city you recently moved into after you were released from your old job,The town square is busy as per usual making it look like the liveliest part of the city.
+    text: `In a not so calm evening, as the winds grazes past you and flows along your skin, you find yourself standing in the town square of a city called Vernes, a city you recently moved into after you were released from your old job,The town square is busy as per usual making it look like the liveliest part of the city.
     
     You look at the old tavern settled on a stone foundation and can see the sun starting to dip behind it. You take a deep sigh, now all that your mind cares about is getting a nice warm piece of bread and honey along with a mug of refreshing ale.
 
