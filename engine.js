@@ -1,3 +1,6 @@
+// importing game stats
+import { stats } from "./stats.js";
+
 // import all the chapters
 // every chapter folder has it's own scene folder
 // which has all of its scenes
@@ -54,6 +57,11 @@ function renderScene(subScene) {
 function renderText(subScene) {
     const storyTextDiv = document.getElementById("story-text");
     storyTextDiv.innerText = subScene.text;
+    if (subScene.hasOwnProperty("getTextInput")) {
+        const textInput = document.createElement('input');
+        textInput.id = "text-input";
+        storyTextDiv.appendChild(textInput);
+    }
     if (subScene.run) subScene.run();
 }
 
@@ -72,6 +80,11 @@ function renderChoices(subScene) {
             choiceButton.innerText = choice.text;
             storyChoicesDiv.appendChild(choiceButton);
             choiceButton.addEventListener("click", () => {
+                if (subScene.hasOwnProperty("getTextInput")) {
+                    const textInput = document.getElementById("text-input");
+                    stats[subScene.getTextInput] = textInput.value;
+                    console.log(stats);
+                }
                 choice.run();
                 renderScene(subScene.nextScene);
             });

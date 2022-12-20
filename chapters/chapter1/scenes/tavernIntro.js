@@ -1,15 +1,7 @@
 export const start = {
-    text: `In a calm evening, as the winds graze past you and flow along your skin, you find yourself standing in the town square of a city called Vernes, a city you recently moved into after you were released from your old job,The town square is busy as per usual making it look like the liveliest part of the city.
-    
-    You look at the old tavern settled on a stone foundation and can see the sun starting to set behind it. You let out a deep sigh, now all that your mind cares about is getting a nice warm piece of bread and honey along with a mug of refreshing ale.
-
-    "I deserve it after all the days work" you think to yourself.
-    
-    As your stomach starts to growl in excitement, you move forward and open the door of the Winter Bear's Tavern, the warmth flushing at you as the door opens.
-    
-    "Welcome to Winter Bear tavern laddie what will you be having t'night?" Says the bartender as you enter,the place is busling with adventurers and soldiers alike talking about their own sets of achivements, in various stages of drunkenness, it's a well reputed inn afterall,
-    
-    You order yourself some bread and honey, with a pint of ale as you sit at one of the tables, you food was quickly served and soon enough you are enjoying your well deserved food after a long and hectic day with a mug of ale in your left hand and honey laced bread in your right.`,
+    text: `You take a deep sigh and slump back in the chair, taking in your surrounding. You are sitting in a tavern named Winter Bear's Tavern in a city called Vernes. The building itself is not quite large, infact small you would say compared to the taverns in the Kingdom but it's surptisingly well maintained and it has a cozy spirit to it which makes you feel at home. The tavern is bustling with life, it's the liveliest place of the entirety of Vernes at this time of the day. You let the environment take over you and can listen to a pretty voice performing on a small stage on one side of the tavern, her voice so comforting that it calms down your nerves and make you feel relaxed. On the other side of the tavern you see a group of nobles betting and playing cards, on some other table are a bunch of drunkards crackling and laughing to their hearts content. But you are all on your own this evening.
+    You now let the surrounding fade away and focus on your table. There lies a warm loaf of bread and some honey along with a half filed mug of ale. You take a small piece of bread, dip it in the honey and let the taste flow in your mouth calming down your nerves. You shift your gaze to your left, looking at the roaring flames of the fireplace, soaking in all the warmth your body can. You can see the reflection of your face in the dancing flames and can hear your name as if the flames itself are calling you.`,
+    getTextInput: "mcName",
     choices: [
         {
             text: "Continue",
