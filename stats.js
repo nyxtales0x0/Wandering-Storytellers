@@ -9,3 +9,7 @@ export function get(key) {
 export function set(key, value) {
     stats[key] = value;
 }
+
+export function getAll() {
+    return { ...stats }
+}
