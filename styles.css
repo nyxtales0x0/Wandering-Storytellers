@@ -37,8 +37,9 @@ nav {
     margin-bottom: 2rem;
 }
 
-#story-choices  {
+.story-choices  {
     color: #dfac3f;
     width: 90%;
     margin-bottom: 1rem;
+    cursor: pointer;
 }

@@ -76,7 +76,7 @@ function renderChoices(subScene) {
         else {
             // add the choice
             const choiceButton = document.createElement("div");
-            choiceButton.id = "story-choices";
+            choiceButton.className = "story-choices";
             choiceButton.innerText = choice.text;
             storyChoicesDiv.appendChild(choiceButton);
             choiceButton.addEventListener("click", () => {
