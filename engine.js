@@ -1,5 +1,5 @@
 // importing game stats
-import { stats } from "./stats.js";
+import * as stats from "@/stats.js"
 
 // import all the chapters
 // every chapter folder has it's own scene folder
@@ -76,14 +76,13 @@ function renderChoices(subScene) {
         else {
             // add the choice
             const choiceButton = document.createElement("div");
-            choiceButton.className = "story-choices";
+            choiceButton.classList.add("button", "story-choices");
             choiceButton.innerText = choice.text;
             storyChoicesDiv.appendChild(choiceButton);
             choiceButton.addEventListener("click", () => {
                 if (subScene.hasOwnProperty("getTextInput")) {
                     const textInput = document.getElementById("text-input");
-                    stats[subScene.getTextInput] = textInput.value;
-                    console.log(stats);
+                    stats.set(subScene.getTextInput, textInput.value);
                 }
                 choice.run();
                 renderScene(subScene.nextScene);
