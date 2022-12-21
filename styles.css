@@ -7,15 +7,12 @@ body {
     display: flex;
     flex-flow: column;
     background-color: #1d2025;
-    width: 100vw;
-    height: 100vh;
 }
 
 nav {
     display: flex;
     align-items: center;
     background-color: #2b303a;
-    height: 5%;
     padding: 0rem 1rem;
 }
 
@@ -23,9 +20,7 @@ nav {
     background-color: #2b303a;
     color: #d8dee9;
     font-size: 1.5rem;
-    width: 70%;
-    height: 80%;
-    margin: auto;
+    margin: 4rem 4rem;
     padding: 3rem;
 }
 
@@ -34,7 +29,6 @@ nav {
 }
 
 .story-choices  {
-    width: 90%;
     margin-bottom: 1rem;
 }
 
