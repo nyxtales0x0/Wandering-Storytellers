@@ -56,7 +56,7 @@ function renderScene(subScene) {
 // displays the value of text property from the subScene node
 function renderText(subScene) {
     const storyTextDiv = document.getElementById("story-text");
-    storyTextDiv.innerText = subScene.text;
+    storyTextDiv.innerText = subScene.text();
     if (subScene.hasOwnProperty("getTextInput")) {
         const textInput = document.createElement('input');
         textInput.id = "text-input";
