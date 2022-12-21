@@ -19,10 +19,6 @@ nav {
     padding: 0rem 1rem;
 }
 
-#rewind {
-    color: #dfac3f;
-}
-
 #story {
     background-color: #2b303a;
     color: #d8dee9;
@@ -38,8 +34,11 @@ nav {
 }
 
 .story-choices  {
-    color: #dfac3f;
     width: 90%;
     margin-bottom: 1rem;
+}
+
+.button {
+    color: #dfac3f;
     cursor: pointer;
 }
