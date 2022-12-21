@@ -1,4 +1,4 @@
-import * as stats from "@/stats.js";
+import * as stats from "../../../stats";
 
 export const start = {
     text() {return `You take a deep sigh and slump back in the chair, taking in your surrounding. You are sitting in a tavern named Winter Bear's Tavern in a city called Vernes. The building itself is not quite large, infact small you would say compared to the taverns in the Kingdom but it's surptisingly well maintained and it has a cozy spirit to it which makes you feel at home. The tavern is bustling with life, it's the liveliest place of the entirety of Vernes at this time of the day. You let the environment take over you and can listen to a pretty voice performing on a small stage on one side of the tavern, her voice so comforting that it calms down your nerves and make you feel relaxed. On the other side of the tavern you see a group of nobles betting and playing cards, on some other table are a bunch of drunkards crackling and laughing to their hearts content. But you are all on your own this evening.

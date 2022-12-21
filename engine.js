@@ -1,5 +1,5 @@
 // importing game stats
-import * as stats from "@/stats.js"
+import * as stats from "./stats.js"
 
 // import all the chapters
 // every chapter folder has it's own scene folder
