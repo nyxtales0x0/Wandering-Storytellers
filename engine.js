@@ -10,7 +10,7 @@ import { stats } from "./stats.js";
 //          |__main.js
 //          |__scene1.js
 //          |__scene2.js
-import * as chapter1 from "./chapters/chapter1/scenes/main.js";
+import * as chapter1 from "./chapters/chapter1/scenes/index.js";
 
 // start subscene of the tavernIntro scene of chapter 1
 // is the first node of the scene tree
