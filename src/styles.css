@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap'); */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: #1d2025;
+    font-family: 'Fira Code', monospace;
+    /* font-family: 'JetBrains Mono', monospace; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #2b303a;
+    padding: 1rem 1rem;
+    margin-bottom: 3rem;
+}
+
+#story {
+    background-color: #2b303a;
+    color: #d8dee9;
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 3rem 4rem;
+}
+
+#story-text {
+    text-align: justify;
+}
+
+.story-choice {
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+.button {
+    color: #dfac3f;
+    cursor: pointer;
+}
