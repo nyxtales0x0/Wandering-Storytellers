@@ -23,19 +23,19 @@ const helloRalf = {
     "Errr you know them young bloody bastards! Always makin' a mess of this place. This one laddie was fightin' with Valor over Syrine. Stupid dumplings have nothin' better to do than keepin their dirty eyes ove' the waitress and fightin' in my shack." Ralf grunts as he turns a bit angry, You turn your gaze to your right and look at a pale skinned young lady, she has black hair, her eyes sparkling blue like lapiz, with freckles running across her face.`},
     choices: [
         {
-            text() {`I'm not surprised that people always seem to flirt with her, she looks quite beautiful afterall`},
+            text() {return `I'm not surprised that people always seem to flirt with her, she looks quite beautiful afterall`},
             run() {
                 helloRalf.nextScene = whosTheLass;
             }
         },
         {
-            text() {`She's just an ordinary girl... why waste time on a waitress`},
+            text() {return `She's just an ordinary girl... why waste time on a waitress`},
             run() {
                 helloRalf.nextScene = whosTheLass;
             }
         },
         {
-            text() {`Sip your ale`},
+            text() {return `Sip your ale`},
             run() {
                 helloRalf.nextScene = whosTheLass;
             }
