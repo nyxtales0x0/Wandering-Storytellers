@@ -1,47 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap'); */
 
-* {
-    margin: 0px;
-    padding: 0px;
+
+
+/* for anything other than a phone */
+
+@media (min-width: 601px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        display: flex;
+        flex-flow: column;
+        background-color: #1d2025;
+        font-family: 'Fira Code', monospace;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        background-color: #2b303a;
+        padding: 1rem 1rem;
+        margin-bottom: 3rem;
+    }
+
+    #story {
+        background-color: #2b303a;
+        color: #d8dee9;
+        font-size: 1.5rem;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3rem;
+        padding: 3rem 4rem;
+    }
+
+    #story-text {
+        text-align: justify;
+    }
+
+    .story-choice {
+        margin-top: 2rem;
+        text-align: justify;
+    }
+
+    .button {
+        color: #dfac3f;
+        cursor: pointer;
+    }
 }
 
-body {
-    display: flex;
-    flex-flow: column;
-    background-color: #1d2025;
-    font-family: 'Fira Code', monospace;
-    /* font-family: 'JetBrains Mono', monospace; */
-}
 
-nav {
-    display: flex;
-    align-items: center;
-    background-color: #2b303a;
-    padding: 1rem 1rem;
-    margin-bottom: 3rem;
-}
 
-#story {
-    background-color: #2b303a;
-    color: #d8dee9;
-    font-size: 1.5rem;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 3rem;
-    padding: 3rem 4rem;
-}
+/* for mobile devices */
 
-#story-text {
-    text-align: justify;
-}
+@media (max-width: 600px) {
 
-.story-choice {
-    margin-top: 2rem;
-    text-align: justify;
-}
+    * {
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
 
-.button {
-    color: #dfac3f;
-    cursor: pointer;
+    body {
+        background-color: #1d2025;
+        font-family: 'Fira Code', monospace;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        background-color: #2b303a;
+        padding: 1rem 1rem;
+    }
+
+    #story {
+        color: #d8dee9;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        padding: 1.5rem 1.5rem;
+    }
+
+    #story-text {
+        text-align: justify;
+    }
+
+    .story-choice {
+        margin-top: 1.5rem;
+        text-align: justify;
+    }
+
+    .button {
+        color: #dfac3f;
+        cursor: pointer;
+    }
+
 }
