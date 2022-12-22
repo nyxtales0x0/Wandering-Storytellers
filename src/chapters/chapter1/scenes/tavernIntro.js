@@ -16,9 +16,7 @@ export const start = {
 }
 
 const helloRalf = {
-    text() {return `As you eat and drink your fill, you start to take in the medium sized tavern's atmosphere, the usual cheers and songs of drunken patrons, the warmth of the fire from the hearth, the warm lanterns hung from the walls, lights the wooden furnitures scattered about the tavern, as one of the people surrounding a table stands up giggling with glee as he takes a pot of money from their game of cards,
-
-    Then in the corner of your eyes you see somebody walking towards you, seems like you will be left to your own thoughts no longer. You see an atheletic man with a tan skin tone, green emerald like eyes and a thick orange beard approaching towards you.
+    text() {return `Then in the corner of your eyes you see somebody walking towards you, seems like you will be left to your own thoughts no longer. You see an atheletic man with a tan skin tone, green emerald like eyes and a thick orange beard approaching towards you.
     
     "Ahh Ralf, good day old man. How's it going?"
 
