@@ -14,7 +14,7 @@ export const start = {
 }
 
 const helloRalf = {
-    text() {return `Then in the corner of your eyes you see somebody walking towards you, seems like you will be left to your own thoughts no longer. You see an atheletic man with a tan skin tone, green emerald like eyes and a thick orange beard approaching towards you.
+    text() {return `As you start to turn your gaze away from the flames your mind seemingly sighed as it thinks "seems like i'll be left to my own thoughts no longer.", Before he even came into your full vision, you see an atheletic man with a tan skin tone, green emerald like eyes and a thick orange beard approaching towards you and your table as your mind sighes in relief at the familiar face.
     
     "Ahh Ralf, good day old man. How's it going?"
 
@@ -43,7 +43,7 @@ const helloRalf = {
     ]
 }
 
-const whosTheLass = {
+const whosTheLass = { insert who's the lass here
     text() {return ``},
     choices: []
 }
