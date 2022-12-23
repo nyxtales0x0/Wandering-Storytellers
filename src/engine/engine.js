@@ -22,6 +22,9 @@ export const gameManager = {
     },
 
     startGame() {
+        const storyDiv = document.getElementById("story");
+        const startMenuDiv = document.getElementById("start-menu");
+        storyDiv.removeChild(startMenuDiv);
         loadScene(this.sceneTree);
     },
 
