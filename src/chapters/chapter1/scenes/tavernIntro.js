@@ -43,7 +43,7 @@ const helloRalf = {
     ]
 }
 
-const whosTheLass = { insert who's the lass here
+const whosTheLass = {
     text() {return ``},
     choices: []
 }
