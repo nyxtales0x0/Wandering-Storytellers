@@ -1,9 +1,3 @@
-const backButton = document.getElementById("back");
-backButton.onclick = () => {
-    gameManager.deleteLastScene(gameManager.sceneTree);
-    gameManager.loadLastScene(gameManager.sceneTree);
-}
-
 export const gameManager = {
     
     sceneTree: {},
@@ -47,6 +41,8 @@ export const gameManager = {
 
 }
 
+
+// attach stats to every node on scene load -- pending
 function loadScene(scene) {
     handleText(scene)
     handleChoices(scene);
