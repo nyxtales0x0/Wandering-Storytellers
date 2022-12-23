@@ -65,6 +65,8 @@
     }
 
     body {
+        display: flex;
+        flex-direction: column;
         background-color: #1d2025;
         font-family: 'Fira Code', monospace;
         background-image: url("./background.jpg");
@@ -72,6 +74,8 @@
         background-position: center;
         background-size: cover;
         min-height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
     }
 
     nav {
@@ -89,7 +93,7 @@
         overflow: scroll;
         background-color: rgba(0, 0, 0, 0.5);
         backdrop-filter: blur(10px);
-        min-height: inherit;
+        flex-grow: 1;
     }
 
     #story-text {
