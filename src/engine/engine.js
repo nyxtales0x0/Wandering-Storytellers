@@ -53,8 +53,9 @@ function handleText(scene) {
     const storyTextDiv = document.getElementById("story-text");
     clearElement(storyTextDiv);
     storyTextDiv.innerText = scene.text();
-    if (scene.hasOwnProperty("inputText")) {
-        const textInput = document.createElement("input").id = "text-input";
+    if (scene.hasOwnProperty("textInput")) {
+        const textInput = document.createElement("input");
+        textInput.id = "text-input"
         storyTextDiv.append(textInput);
     }
     if (scene.hasOwnProperty("run")) scene.run();
@@ -70,7 +71,7 @@ function handleChoices(scene) {
         choiceButton.innerText = choice.text();
         storyChoicesDiv.append(choiceButton);
         choiceButton.addEventListener("click", () => {
-            if (scene.hasOwnProperty("inputText")) {
+            if (scene.hasOwnProperty("textInput")) {
                 const textInput = document.getElementById("text-input");
                 gameManager.setStat(scene.textInput, textInput.value);
             }
