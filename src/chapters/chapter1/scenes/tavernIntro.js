@@ -44,6 +44,6 @@ const helloRalf = {
 }
 
 const whosTheLass = {
-    text() {return ``},
+    text() {return `"so who's the lass anyway? I've seen her a couple of times..." `},
     choices: []
 }
