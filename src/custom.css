@@ -1,0 +1,131 @@
+/**
+ * @name nyxDark
+ * @author nyxtales
+ * @description :)
+ * @version 0.0.1
+*/
+
+/* ========================= */
+/* unset background property */
+/* ========================= */
+
+/* top level */
+/* --------- */
+
+body,
+.theme-dark .appMount-2yBXZl,
+.app-2CXKsg,
+.bg-1QIAus,
+.layer-86YKbF.baseLayer-W6S8cY,
+
+/* server list panel */
+/* ----------------- */
+
+.wrapper-1_HaEi,
+.theme-dark .scroller-3X7KbA,
+
+/* sidebars */
+/* -------- */
+
+/* user area panel */
+.panels-3wFtMD,
+.theme-dark .container-YkUktl,
+
+/* server channels list */
+.sidebar-1tnWFu,
+.theme-dark .container-1NXEtd,
+
+/* dm list side panel */
+.privateChannels-oVe7HL,
+.theme-dark .scroller-WSmht3,
+
+/* server chat area */
+/* ---------------- */
+
+.chat-2ZfjoI,
+.uploadArea-2Nu_Vc,
+
+/* server chat title zone */
+.theme-dark .themed-Hp1KC_,
+
+/* chat messages content area */
+.chatContent-3KubbW,
+
+/* message input area */
+.channelTextArea-1FufC0,
+.theme-dark .scrollableContainer-15eg7h,
+
+/* server members panel */
+.container-2o3qEW,
+.member-48YF_l,
+.members-3WRCEx,
+
+/* friends list area */
+/* ----------------- */
+
+.container-2cd8Mz,
+
+/* active now area */
+.nowPlayingColumn-1eCBCN,
+.container-1oAagU,
+
+/* dm friends profile panel */
+/* ------------------------ */
+.userProfileOuterUnthemed-2b2rsv,
+.userPanelInnerThemed-2xZFjl,
+
+/* code blocks */
+/* ----------- */
+.markup-eYLPri code,
+.hljs
+{
+    background: transparent;
+}
+
+/* ==================== */
+/* styling discord here */
+/* ==================== */
+
+/* bug fixes */
+/* --------- */
+
+/* small box near message input area */
+.form-3gdLxP:before {
+    visibility: hidden;
+}
+
+/* message area has negetive margin */
+.form-3gdLxP {
+    margin-top: 0;
+}
+
+/* body background */
+/* --------------- */
+
+body {
+    /* background-image: url("https://media.discordapp.net/attachments/1053552495445680138/1069853678820921394/wallpaperflare.com_wallpaper.jpg?width=921&height=576"); */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/478/351/784/anime-girls-original-characters-women-blonde-long-hair-hd-wallpaper-preview.jpg");
+    /* background-image: url("https://c4.wallpaperflare.com/wallpaper/928/297/268/anime-girls-anime-original-characters-dark-hair-blue-eyes-hd-wallpaper-preview.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.theme-dark .appMount-2yBXZl {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+/* ---------------------------- */
+/* EXP ZONE - will delete later */
+/* ---------------------------- */
+
+/* code blocks */
+/* ----------- */
+
+.markup-eYLPri code {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+}
